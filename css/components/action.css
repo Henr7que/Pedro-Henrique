@@ -1,0 +1,19 @@
+.action {
+  display: inline-flex;
+  align-items: center;
+  color: #dff9fb;
+  font-size: 20px;
+  font-weight: 500;
+  text-decoration: none;
+  margin-right: 30px;
+}
+.action::before {
+  content: "";
+  background-color: #badc58;
+  width: 10px;
+  height: 10px;
+  margin-right: 10px;
+}
+.action:hover {
+  color: #f6e58d;
+}
